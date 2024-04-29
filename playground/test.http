@@ -1,5 +1,7 @@
 @server=http://localhost:3000
 
+###
+GET {{server}}/hello/comments?comment=1
 
 ###
-GET {{server}}/hello
+GET https://jsonplaceholder.typicode.com/comments/211111
